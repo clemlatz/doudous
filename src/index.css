@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.HomeView .HomeView-title {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.Page {
+  display: block;
+  margin: auto;
+  max-height: calc(100vh);
+  max-width: calc(100vw);
+}
