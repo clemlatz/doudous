@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Page from "./Page";
 
 export default function HomeView() {
-  const volumes = [];
+  const volumes = [1];
 
   return <div className="HomeView">
     <h1 className="HomeView-title">Le Livre des doudous</h1>
