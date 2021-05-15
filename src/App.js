@@ -1,10 +1,20 @@
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+import HomeView from "./HomeView";
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="App-title">Le Livre des doudous</h1>
-    </div>
+    <Router>
+      <div className="App">
+        <Switch>
+          <Route exact path="/">
+            <HomeView />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

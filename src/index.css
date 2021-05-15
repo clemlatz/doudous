@@ -17,9 +17,20 @@ code {
   text-align: center;
 }
 
+.HomeView .HomeView-volumes {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
 .Page {
   display: block;
   margin: auto;
   max-height: calc(100vh);
   max-width: calc(100vw);
+}
+
+.HomeView .Page {
+  max-height: calc(100vh - 81px);
+  max-width: 50vw;
 }
