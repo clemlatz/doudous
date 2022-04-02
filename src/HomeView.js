@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 import Page from "./Page";
+import {BookPreview} from "./BookPreview";
 
 export default function HomeView() {
   const volumes = [1, 2];
@@ -14,5 +15,6 @@ export default function HomeView() {
         </Link>
       ))}
     </div>
+    <BookPreview />
   </div>;
 }
