@@ -49,22 +49,35 @@ code {
   }
 }
 
-.buttonRow {
+.button-row {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   margin: 1em 0;
 }
 
-.button {
+.button-row .Button {
+  margin: 0 4px;
+}
+
+.Button {
+  align-items: center;
   background-color: #336699;
   border: none;
   border-radius: 4px;
   color: white;
+  display: inline-flex;
   padding: 8px 16px;
   text-align: center;
   text-decoration: none;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
+  transition-duration: 0.25s;
   cursor: pointer;
-  margin: auto;
+}
+
+.Button:hover {
+  background-color: #5588BB;
+}
+
+.Button-icon {
+  height: 16px;
+  margin-right: 6px;
 }

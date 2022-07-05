@@ -18,7 +18,7 @@ export default function Book({ volume }) {
         </SwiperSlide>
       ))}
     </Swiper>
-    <div className="buttonRow">
+    <div className="button-row">
       <Button to="/">Retour</Button>
     </div>
   </>;
