@@ -31,6 +31,10 @@ code {
   flex-wrap: wrap;
 }
 
+.HomeView .HomeView-volume-actions {
+  text-align: center;
+}
+
 .Page {
   display: block;
   margin: auto;
