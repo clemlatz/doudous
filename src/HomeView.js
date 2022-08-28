@@ -16,7 +16,10 @@ export default function HomeView() {
           </Link>
           <div className="button-row">
             <Button to={`/livre/${volume}`} icon="book">
-              Lire en ligne
+              Lire
+            </Button>
+            <Button to={`/books/${volume}/le-livre-des-doudous-${volume}.pdf`} icon="download">
+              Télécharger
             </Button>
           </div>
         </div>
