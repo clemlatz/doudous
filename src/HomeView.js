@@ -2,6 +2,7 @@ import {Link} from "react-router-dom";
 
 import Page from "./Page";
 import Button from "./Button";
+import ReadButton from "./ReadButton";
 
 export default function HomeView() {
   const volumes = [1, 2, 3];
@@ -15,9 +16,7 @@ export default function HomeView() {
             <Page bookVolume={volume} num={1} />
           </Link>
           <div className="button-row">
-            <Button to={`/livre/${volume}`} icon="book">
-              Lire
-            </Button>
+            <ReadButton volume={volume} />
             <Button to={`/books/${volume}/le-livre-des-doudous-${volume}.pdf`} icon="download">
               Télécharger
             </Button>
