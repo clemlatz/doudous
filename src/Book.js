@@ -1,7 +1,7 @@
 import {Swiper, SwiperSlide} from 'swiper/react';
 import SwiperCore, {Keyboard, Navigation} from 'swiper';
 import Page from './Page';
-import Button from './Button';
+import BackButton from './BackButton';
 
 import 'swiper/swiper.min.css';
 import 'swiper/components/navigation/navigation.min.css'
@@ -19,7 +19,7 @@ export default function Book({ volume }) {
       ))}
     </Swiper>
     <div className="button-row">
-      <Button to="/">Retour</Button>
+      <BackButton />
     </div>
   </>;
 }
