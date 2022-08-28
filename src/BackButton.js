@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
+import Button from "./Button";
 
 export default function BackButton() {
-  return <Link to="/" className="Button">Retour</Link>;
+  return <Button><Link to="/">Retour</Link></Button>;
 }
