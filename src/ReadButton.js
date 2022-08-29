@@ -3,7 +3,7 @@ import Icon from './Icon';
 import Button from "./Button";
 
 export default function ReadButton({ volume }) {
-    return <Button>
+    return <Button color="blue">
       <Link to={`/livre/${volume}`}>
         <Icon icon={'book'} /> Lire
       </Link>

@@ -2,7 +2,7 @@ import Icon from './Icon';
 import Button from "./Button";
 
 export default function DownloadButton({ volume }) {
-  return <Button>
+  return <Button color="green">
       <a href={`/books/${volume}/le-livre-des-doudous-${volume}.pdf`} download>
         <Icon icon='download' />
         Télécharger

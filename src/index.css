@@ -64,16 +64,29 @@ code {
 }
 
 .Button {
-  background-color: #336699;
   border: none;
   border-radius: 4px;
+  font-weight: bold;
   padding: 8px 16px;
   transition-duration: 0.25s;
   cursor: pointer;
+  opacity: 1;
+}
+
+.Button-blue {
+  background-color: #337ab7;
+}
+
+.Button-green {
+  background-color: #5cb85c;
+}
+
+.Button-orange {
+  background-color: #f0ad4e;
 }
 
 .Button:hover {
-  background-color: #5588BB;
+  opacity: 0.8;
 }
 
 .Button a {
