@@ -25,6 +25,13 @@ code {
   text-align: center;
 }
 
+.HomeView .HomeView-presentation p {
+  font-size: 1.2rem;
+  margin: .5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .HomeView .HomeView-volumes {
   display: flex;
   justify-content: space-evenly;
