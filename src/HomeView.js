@@ -29,7 +29,7 @@ export default function HomeView() {
       </p>
       <p>
         dans un univers post-apocalyptique<br />
-        noir et ulta-violent
+        noir et ultra-violent
       </p>
     </div>
 
